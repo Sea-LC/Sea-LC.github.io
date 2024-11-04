@@ -3,18 +3,11 @@ html {
   width: 100%;
 }
 
-.show {
-  display: block;
-}
-
-.hide {
-  display: none;
-}
-
 .box {
-  height: 400px;
-  width: 800px;
+  height: 200px;
+  width: 400px;
   border: solid 3px black;
+  margin: 15px;
 }
 
 .red {
@@ -26,5 +19,57 @@ html {
 }
 
 .yellow {
-  background-color: yellow;
+  background-image: linear-gradient(to right, gold, white);
+  text-align: center;
 }
+
+.green {
+  background-image: linear-gradient(to top, red, yellow, green, blue);
+}
+
+
+.parent {
+display: grid;
+grid-template-columns: 50px 50px 50px;
+grid-template-rows: 50px 50px 50px;
+grid-gap: 10px;
+margin-left: 110px;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+
+.blank {  
+  background-color: blue;
+  border: solid 5px;
+  transition: 1s;
+}
+  
+.blank:hover { 
+cursor: pointer;
+}
+
+.used1 {
+background-color: purple;
+border: solid 5px;
+pointer-events: none;
+}
+
+.used2 {
+background-color: pink;
+border: solid 5px;
+pointer-events: none;
+}
+
+ul.e {
+  list-style-type: circle;
+  margin: 60px;
+}
+
+.column1 {
+    outline: dotted black;
+    width: 50%;
+    padding: 10%;
+    margin: 50px;
+    text-align: center;
+    color: white;
+  }

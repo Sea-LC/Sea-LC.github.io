@@ -8,31 +8,60 @@
 <body>
 
 <div>
-header
+menu buttons:
 </div>
 
-menu buttons:
 <div>
 <button onclick="showthediv('div1')">Div1</button>
 <button onclick="showthediv('div2')">Div2</button>
 <button onclick="showthediv('div3')">Div3</button>
+<button onclick="showthediv('div4')">Div3</button>
 </div>
 
-<div id="div1" class="show">
+<div id="div1" style="display:block">
   <div class="box red">
-  red-div1
+     <div class="column1">      
+        <select name="dog" id="dog" onchange="selectChange()">
+        <option value="cookies">cookies</option>
+        <option value="ice cream">ice cream</option>
+        <option value="brownie">brownie</option>
+        <option value="cupcake">cupcake</option>
+        <option value="donuts">donuts</option>
+        </select>
+    </div>
   </div>
 </div>
 
-<div id="div2" class="hide">
+<div id="div2" style="display:none">
   <div class="box blue">
-  blue-div2
+    <div class="parent">
+      <div id="d1" class="blank" onclick="select(this)"></div>
+      <div id="d2" class="blank" onclick="select(this)"></div>
+      <div id="d3" class="blank" onclick="select(this)"></div>
+      <div id="d4" class="blank" onclick="select(this)"></div>
+      <div id="d5" class="blank" onclick="select(this)"></div>
+      <div id="d6" class="blank" onclick="select(this)"></div>
+      <div id="d7" class="blank" onclick="select(this)"></div>
+      <div id="d8" class="blank" onclick="select(this)"></div>
+      <div id="d9" class="blank" onclick="select(this)"></div>
+    </div>
   </div>
 </div>
 
-<div id="div3" class="hide">
+<div id="div3" style="display:none">
   <div class="box yellow">
   yellow-div3
+  </div>
+</div>
+
+<div id="div4" style="display:none">
+  <div class="box green">      
+      <ul class="e">
+        <li>Water</li>
+        <li>Earth</li>
+        <li>Air</li>
+        <li>Fire</li>
+      </ul>
   </div>
 </div>
 

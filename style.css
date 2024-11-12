@@ -1,75 +1,168 @@
 html {
   height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.head {
+  height: 50px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: gold;
+  box-shadow: 10px 10px 10px gold;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.box {
-  height: 200px;
-  width: 400px;
-  border: solid 3px black;
-  margin: 15px;
+.karate {
+  height: 60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: gold;
+  border: black dotted 3px;
+  box-shadow: 10px 10px 10px gold;
+  text-align: center;
+  color: red;
+  font-size: 50px;
 }
 
-.red {
-  background-color: red;
+.spacer {
+  height: 10px;
 }
 
-.blue {
-  background-color: blue;
-}
-
-.yellow {
-  background-image: linear-gradient(to right, gold, white);
+.box1 {
+  flex: 1;
+  height: 20px;
+  min-width: 10px;
+  max-width: 70px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: solid 1px;
   text-align: center;
 }
 
-.green {
-  background-image: linear-gradient(to top, red, yellow, green, blue);
+.box1:hover {
+  color: red;
 }
 
-
-.parent {
-display: grid;
-grid-template-columns: 50px 50px 50px;
-grid-template-rows: 50px 50px 50px;
-grid-gap: 10px;
-margin-left: 110px;
-margin-top: 15px;
-margin-bottom: 10px;
+.box2 {
+  flex: 1;
+  height: 20px;
+  min-width: 10px;
+  max-width: 80px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: solid 1px;
+  text-align: center;
 }
 
-.blank {  
-  background-color: blue;
-  border: solid 5px;
-  transition: 1s;
-}
-  
-.blank:hover { 
-cursor: pointer;
+.box2:hover {
+  color: red;
 }
 
-.used1 {
-background-color: purple;
-border: solid 5px;
-pointer-events: none;
+.box3 {
+  flex: 1;
+  height: 20px;
+  min-width: 10px;
+  max-width: 80px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: solid 1px;
+  text-align: center;
 }
 
-.used2 {
-background-color: pink;
-border: solid 5px;
-pointer-events: none;
+.box3:hover {
+  color: red;
 }
 
-ul.e {
-  list-style-type: circle;
-  margin: 60px;
+.box4 {
+  flex: 1;
+  height: 20px;
+  min-width: 10px;
+  max-width: 80px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: solid 1px;
+  text-align: center;
 }
 
-.column1 {
-    outline: dotted black;
-    width: 50%;
-    padding: 10%;
-    margin: 50px;
-    text-align: center;
-    color: white;
-  }
+.box4:hover {
+  color: red;
+}
+
+.box5 {
+  flex: 1;
+  height: 20px;
+  min-width: 10px;
+  max-width: 80px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: solid 1px;
+  text-align: center;
+}
+
+.box5:hover {
+  color: red;
+}
+
+.box6 {
+  flex: 1;
+  height: 20px;
+  min-width: 10px;
+  max-width: 80px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: solid 1px;
+  text-align: center;
+}
+
+.box6:hover {
+  color: red;
+}
+
+.in {
+  display: none;
+  flex: 1;
+}
+
+.menu {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.grad {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  background: linear-gradient(to top, black, gray, lightgray);
+}
+
+.topright {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .in {
+   position: absolute;
+   flex: 1;
+}
+.topright {
+  display: none;
+}
+
+}

@@ -1,71 +1,51 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>Document</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
-
 <body>
 
-<div>
-menu buttons:
-</div>
+<div class="head">
 
-<div>
-<button onclick="showthediv('div1')">Div1</button>
-<button onclick="showthediv('div2')">Div2</button>
-<button onclick="showthediv('div3')">Div3</button>
-<button onclick="showthediv('div4')">Div3</button>
-</div>
-
-<div id="div1" style="display:block">
-  <div class="box red">
-     <div class="column1">      
-        <select name="dog" id="dog" onchange="selectChange()">
-        <option value="cookies">cookies</option>
-        <option value="ice cream">ice cream</option>
-        <option value="brownie">brownie</option>
-        <option value="cupcake">cupcake</option>
-        <option value="donuts">donuts</option>
-        </select>
+    <div class="spacer">
     </div>
-  </div>
-</div>
-
-<div id="div2" style="display:none">
-  <div class="box blue">
-    <div class="parent">
-      <div id="d1" class="blank" onclick="select(this)"></div>
-      <div id="d2" class="blank" onclick="select(this)"></div>
-      <div id="d3" class="blank" onclick="select(this)"></div>
-      <div id="d4" class="blank" onclick="select(this)"></div>
-      <div id="d5" class="blank" onclick="select(this)"></div>
-      <div id="d6" class="blank" onclick="select(this)"></div>
-      <div id="d7" class="blank" onclick="select(this)"></div>
-      <div id="d8" class="blank" onclick="select(this)"></div>
-      <div id="d9" class="blank" onclick="select(this)"></div>
+    
+  <div class="box1">Instructors</div>
+  <div class="box2">Contact Us</div>
+  <div class="box3">Home</div>
+  <div class="box4">Location</div>
+  <div class="box5">Classes</div>
+  <div class="box6">Testimonials</div>
+  
+  <div class="menu">
+  <span class="material-symbols-outlined">
+menu
+</span>
     </div>
-  </div>
+  
+   <div id="inputs" class="in">
+   <input id="textbox" type="text"/>
+   </div>
+  
 </div>
 
-<div id="div3" style="display:none">
-  <div class="box yellow">
-  yellow-div3
-  </div>
+<div class="grad">
+<div class="karate">
+KARATE
+</div>
+           <img class="pic" src="https://www.bokksu.com/cdn/shop/articles/dojo9.jpg?v=1723624983"/>
+
+    <div class="topright">
+      <span class="material-symbols-outlined">
+        search
+      </span>
+    </div>
+
+    <div class="spacer">
+    </div>
+
 </div>
 
-<div id="div4" style="display:none">
-  <div class="box green">      
-      <ul class="e">
-        <li>Water</li>
-        <li>Earth</li>
-        <li>Air</li>
-        <li>Fire</li>
-      </ul>
-  </div>
-</div>
-
-<script src="script.js"></script>
 </body>
 </html>

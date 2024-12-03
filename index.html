@@ -1,51 +1,264 @@
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <title>Document</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 <body>
 
 <div class="head">
-
-    <div class="spacer">
-    </div>
     
-  <div class="box1">Instructors</div>
-  <div class="box2">Contact Us</div>
-  <div class="box3">Home</div>
-  <div class="box4">Location</div>
-  <div class="box5">Classes</div>
-  <div class="box6">Testimonials</div>
-  
-  <div class="menu">
-  <span class="material-symbols-outlined">
-menu
-</span>
+   <div class="one"> 
+        <div class="box1" onclick="showthediv('home')">Home</div>
+        <div class="box2" onclick="showthediv('contact')">Contact Us</div>
+        <div class="box3" onclick="showthediv('instructor')">Instructor</div>
+        <div class="box4" onclick="showthediv('quotes')">Dojo Quotes</div>
+        <div class="box5" onclick="showthediv('classes')">Classes</div>
+        
     </div>
   
-   <div id="inputs" class="in">
-   <input id="textbox" type="text"/>
-   </div>
-  
+  <div class="two">
+        <div class="box6" onclick="showthediv('gallery')">
+            <span class="material-symbols-outlined" style="font-size: 45px">
+            gallery_thumbnail
+            </span>
+        </div>
+ </div>
 </div>
 
-<div class="grad">
-<div class="karate">
-KARATE
-</div>
-           <img class="pic" src="DSC_0863.jpeg"/>
 
-    <div class="topright">
-      <span class="material-symbols-outlined">
-        search
-      </span>
+<div id="instructor" style="display:none" class="grad2">
+        <div class="Meet">MEET OUR INSTRUCTORS</div>
+
+          <div class="red">
+
+    <div class="blue">
+            <div class="black1">
+                <div class="circle">
+                <img class="pic1" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
+                </div>
+                <div class="text one1">
+                 Weapons Instructor:
+             <p>Shihan D.M. is a 4th Degree Black Belt with over 17 years of experience. He teaches our students the mastery of Oriental Weaponry.</p>
+    Sword/Bo/Tonfa/Sai/3 Sectional Staff/Escrima Sticks/Nunchaku 
+                </div>  
+            </div>
+            
+        <div class="black2">
+                <div class="circle">
+                <img class="pic1" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
+                </div>
+                <div class="text two2">
+                 Lead Instructor:
+             <p>Sensei Andrew is a 3rd Degree Black Belt with over 15 years of experience. He uses the katana as his main oriental weapon.</p>
+                </div>  
+            </div>
+
+            <div class="black3">
+                <div class="circle">       
+                <img class="pic1" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
+                </div>
+                <div class="text three3">
+                 Lead Instructor:
+             <p>Sensei Jones is a 2nd Degree Black Belt with over 15 years of experience. He has studied with both the katana and bo staff.</p>
+                </div>  
+            </div>
+
+            <div class="black4">
+                <div class="circle">
+                       <img class="pic1" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
+                </div>
+                <div class="text four4">
+                 Lead Instructor:
+             <p>Sensei Dusti is a 2nd Degree Black Belt with over 15 years of experience. She uses the katana as his main oriental weapon.</p>
+                </div>  
+            </div>
+
     </div>
 
-    <div class="spacer">
-    </div>
+  </div>
+  
+  <div id="contact" style="display:none" class="grad6">
+            <div class="con">
+            CONTACT INFORMATION
+            </div>
 
+            <div class="box">
+                <div class="info17">
+                LOCATION:
+                <div>
+                 <p> 
+                 135 West 21st Street
+                 Buena Vista, VA. 24416
+                 </p>
+                </div>
+                </div>
+
+                <div class="info18">
+                CONTACT:
+                <div>
+                 <p> 
+                 Sensei Casperson at:
+                 (540) 460-6184
+                 </p>
+                 <p> 
+                 Or by email:
+                 slcdragon@icloud.com
+                 </p>
+                </div>
+                </div>
+            </div> 
+
+  </div>
+  
+  <div id="quotes" style="display:none" class="grad5">
+            <div class="dojo">
+            Dojo Quotes
+            </div>
+
+            <div class="row5">
+                <div class="info9">
+                       <img class="pic" src="IMG_0447.jpeg"/>
+                </div>
+                <div class="info10">
+                       <img class="pic" src="IMG_0452.jpeg"/>
+                </div>
+          </div>        
+
+          <div class="row6">        
+                <div class="info11">
+                       <img class="pic" src="IMG_0451.jpeg"/>
+                </div>
+                <div class="info12">
+                       <img class="pic" src="IMG_0450.jpeg"/>
+                </div>
+            </div> 
+
+            <div class="row7">
+                <div class="info13">
+                       <img class="pic" src="IMG_0449.jpeg"/>
+                </div>
+                <div class="info14">
+                       <img class="pic" src="IMG_0448.jpeg"/>
+                </div>
+          </div>        
+
+          <div class="row8">        
+                <div class="info15">
+                       <img class="pic" src="IMG_0445.jpeg"/>
+                </div>
+                <div class="info16">
+                       <img class="pic" src="IMG_0437.jpeg"/>
+                </div>
+            </div>    
+  </div>
+  
+  <div id="classes" style="display:none" class="grad3">
+                <div class="teach">
+                What We Teach
+                </div>
+
+                  <div class="orange">
+
+            <div class="green">
+                    <div class="black5">
+                        <div class="square">
+                        <img class="pic" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
+                        </div>
+                        <div class="script A">
+                         Street Defense:
+                     <p>When someone comes at you swinging.</p>
+                       Hands, feet, etc.
+                       </div>  
+                    </div>
+
+                <div class="black6">
+                        <div class="square">
+                        <img class="pic" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
+                        </div>
+                        <div class="script B">
+                         Grab Attacks:
+                     <p>When the attacker grabs you in any way.</p>
+                     From both the front and rear.
+                        </div>  
+                    </div>
+
+                    <div class="black7">
+                        <div class="square">       
+                        <img class="pic" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
+                        </div>
+
+                        <div class="script C">
+                         Lead Instructor:
+                     <p>Sensei Jones is a 2nd Degree Black Belt with over 15 years of experience. He has studied with both the katana and bo staff.</p>
+                        </div>  
+                    </div>
+
+                    <div class="black8">
+                        <div class="square">
+                               <img class="pic" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
+                        </div>
+
+                        <div class="script D">
+                         Lead Instructor:
+                     <p>Sensei Dusti is a 2nd Degree Black Belt with over 15 years of experience. She uses the katana as his main oriental weapon.</p>
+                        </div>  
+                    </div>
+            </div>
+
+            </div>
+
+  </div>
+  <div id="gallery" style="display:none" class=" yellow"><div class="grad4">
+                  <div class="pictures">
+                  Hall Of Students
+                  </div>
+
+                  <div class="row">
+                      <div class="info1">
+                             <img class="pic" src="IMG_0424.jpeg"/>
+                      </div>
+                      <div class="info2">
+                             <img class="pic" src="IMG_0417.jpeg"/>
+                      </div>
+                </div>        
+
+                <div class="row2">        
+                      <div class="info3">
+                             <img class="pic" src="IMG_0423.jpeg"/>
+                      </div>
+                      <div class="info4">
+                             <img class="pic" src="IMG_0422.jpeg"/>
+                      </div>
+                  </div> 
+
+                  <div class="row3">
+                      <div class="info5">
+                             <img class="pic" src="IMG_0421.jpeg"/>
+                      </div>
+                      <div class="info6">
+                             <img class="pic" src="IMG_0420.jpeg"/>
+                      </div>
+                </div>        
+
+                <div class="row4">        
+                      <div class="info7">
+                             <img class="pic" src="IMG_0419.jpeg"/>
+                      </div>
+                      <div class="info8">
+                             <img class="pic" src="IMG_0418.jpeg"/>
+                      </div>
+                  </div>    
+
+              </div>
+
+  </div>
+
+<div id="home" class="grad" style="display:block">
+  <div class="karate">
+  KARATE
+  </div>
+           <img class="pic" src="https://www.bokksu.com/cdn/shop/articles/dojo9.jpg?v=1723624983">
 </div>
 
 </body>

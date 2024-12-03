@@ -1,267 +1,614 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
-</head>
-<body>
+html {
+  height: 500%;
+  width: 100%;
+}
 
-<div class="head">
-    
-   <div class="one"> 
-        <div class="box1" onclick="showthediv('home')">Home</div>
-        <div class="box2" onclick="showthediv('contact')">Contact Us</div>
-        <div class="box3" onclick="showthediv('instructor')">Instructor</div>
-        <div class="box4" onclick="showthediv('quotes')">Dojo Quotes</div>
-        <div class="box5" onclick="showthediv('classes')">Classes</div>
-        
-    </div>
-  
-  <div class="two">
-        <div class="box6" onclick="showthediv('gallery')">
-            <span class="material-symbols-outlined" style="font-size: 45px">
-            gallery_thumbnail
-            </span>
-        </div>
- </div>
-</div>
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.head {
+  height: 50px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: gold;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Fire {
+  height: 50px;
+  width: 90%;
+  background: gold;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  height: 20px;
+  min-width: 10px;
+  max-width: 100px;
+  margin-top: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.box1:hover {
+  color: red;
+}
+
+.box2 {
+  height: 20px;
+  min-width: 10px;
+  max-width: 80px;
+  margin-top: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.box2:hover {
+  color: red;
+}
+
+.box3 {
+  height: 20px;
+  min-width: 10px;
+  max-width: 80px;
+  margin-top: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.box3:hover {
+  color: red;
+}
+
+.box4 {
+  height: 20px;
+  min-width: 10px;
+  margin-top: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.box4:hover {
+  color: red;
+}
+
+.box5 {
+  height: 20px;
+  min-width: 10px;
+  max-width: 80px;
+  margin-top: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.box5:hover {
+  color: red;
+}
+
+.box6 {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.box6:hover {
+  color: red;
+}
+
+.karate {
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+
+.grad {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  background: linear-gradient(to top, black, gray, lightgray);
+}
+
+img {
+  height: 100%;
+  width: 102%;
+}
+
+.grad2 {
+  height: 100%;
+  width: 100%;
+  border: solid black 1px;
+  margin-bottom: 0;
+  background: linear-gradient(to top left, darkgray, gray, lightgray);
+}
+
+.Meet {
+  height: 60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  font-size: 35px;
+}
+
+.red {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blue {
+  flex: 1;
+}
+
+.circle {
+  height: 70px;
+  width: 70px;
+  margin-top: 25px;
+  margin-left: auto;
+  border: solid 3px gold;
+  border-radius: 50%;
+}
+.pic1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+ .text {
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: auto;
+  border: solid 1px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #f5d871;
+}
+
+.black1 {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+}
+.one {
+  height: 180px;
+  width: 200px;
+}
+
+.black2 {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin-top: 10px;
+}
+.two {
+  height: 130px;
+  width: 200px;
+}
+
+.black3 {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin-top: 10px;
+}
+.three {
+  height: 130px;
+  width: 200px;
+}
+
+.black4 {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin-top: 10px;
+}
+.four {
+  height: 130px;
+  width: 200px;
+}
+
+p {
+  font-size: 15px;
+  font-family: arial, sans-serif;
+}
+
+.grad6 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  background: linear-gradient(to top, darkgray, gray, lightgray);
+}
+
+.con {
+  height: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  font-size: 35px;
+}
+
+.box {
+  height: 200px;
+  width: 98.1%;
+  display: flex;
+  flex-direction: row;
+}
 
 
-<div id="instructor" style="display:none" class="grad2">
-        <div class="Meet">MEET OUR INSTRUCTORS</div>
+.info17 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+  padding: 10px;
+}
+.info18 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+  padding: 10px;
+}
 
-          <div class="red">
+.grad5 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  background: linear-gradient(to top, darkgray, gray, lightgray);
+}
 
-    <div class="blue">
-            <div class="black1">
-                <div class="circle">
-                <img class="pic1" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
-                </div>
-                <div class="text one1">
-                 Weapons Instructor:
-             <p>Shihan D.M. is a 4th Degree Black Belt with over 17 years of experience. He teaches our students the mastery of Oriental Weaponry.</p>
-    Sword/Bo/Tonfa/Sai/3 Sectional Staff/Escrima Sticks/Nunchaku 
-                </div>  
-            </div>
-            
-        <div class="black2">
-                <div class="circle">
-                <img class="pic1" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
-                </div>
-                <div class="text two2">
-                 Lead Instructor:
-             <p>Sensei Andrew is a 3rd Degree Black Belt with over 15 years of experience. He uses the katana as his main oriental weapon.</p>
-                </div>  
-            </div>
+.dojo {
+  height: 60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  font-size: 35px;
+}
 
-            <div class="black3">
-                <div class="circle">       
-                <img class="pic1" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
-                </div>
-                <div class="text three3">
-                 Lead Instructor:
-             <p>Sensei Jones is a 2nd Degree Black Belt with over 15 years of experience. He has studied with both the katana and bo staff.</p>
-                </div>  
-            </div>
+.row5 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 
-            <div class="black4">
-                <div class="circle">
-                       <img class="pic1" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
-                </div>
-                <div class="text four4">
-                 Lead Instructor:
-             <p>Sensei Dusti is a 2nd Degree Black Belt with over 15 years of experience. She uses the katana as his main oriental weapon.</p>
-                </div>  
-            </div>
+.info9 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
+.info10 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-    </div>
+.row6 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.info11 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-  </div>
-  
-  <div id="contact" style="display:none" class="grad6">
-            <div class="con">
-            CONTACT INFORMATION
-            </div>
+.info12 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-            <div class="box">
-                <div class="info17">
-                LOCATION:
-                <div>
-                 <p> 
-                 135 West 21st Street
-                 Buena Vista, VA. 24416
-                 </p>
-                </div>
-                </div>
 
-                <div class="info18">
-                CONTACT:
-                <div>
-                 <p> 
-                 Sensei Casperson at:
-                 (540) 460-6184
-                 </p>
-                 <p> 
-                 Or by email:
-                 slcdragon@icloud.com
-                 </p>
-                </div>
-                </div>
-            </div> 
+.row7 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 
-  </div>
-  
-  <div id="quotes" style="display:none" class="grad5">
-            <div class="dojo">
-            Dojo Quotes
-            </div>
+.info13 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-            <div class="row5">
-                <div class="info9">
-                       <img class="pic" src="IMG_0447.jpeg"/>
-                </div>
-                <div class="info10">
-                       <img class="pic" src="IMG_0452.jpeg"/>
-                </div>
-          </div>        
+.info14 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-          <div class="row6">        
-                <div class="info11">
-                       <img class="pic" src="IMG_0451.jpeg"/>
-                </div>
-                <div class="info12">
-                       <img class="pic" src="IMG_0450.jpeg"/>
-                </div>
-            </div> 
+.row8 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.info15 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-            <div class="row7">
-                <div class="info13">
-                       <img class="pic" src="IMG_0449.jpeg"/>
-                </div>
-                <div class="info14">
-                       <img class="pic" src="IMG_0448.jpeg"/>
-                </div>
-          </div>        
+.info16 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-          <div class="row8">        
-                <div class="info15">
-                       <img class="pic" src="IMG_0445.jpeg"/>
-                </div>
-                <div class="info16">
-                       <img class="pic" src="IMG_0437.jpeg"/>
-                </div>
-            </div>    
-  </div>
-  
-  <div id="classes" style="display:none" class="grad3">
-                <div class="teach">
-                What We Teach
-                </div>
+.grad3 {
+  height: 100%;
+  width: 100%;
+  border: solid black 1px;
+  margin-bottom: 0;
+  background: linear-gradient(to top left, darkgray, gray, lightgray);
+}
 
-                  <div class="orange">
+.teach {
+  height: 60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  font-size: 35px;
+}
 
-            <div class="green">
-                    <div class="black5">
-                        <div class="square">
-                        <img class="pic" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
-                        </div>
-                        <div class="script A">
-                         Street Defense:
-                     <p>When someone comes at you swinging.</p>
-                       Hands, feet, etc.
-                       </div>  
-                    </div>
+.orange {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-                <div class="black6">
-                        <div class="square">
-                        <img class="pic" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
-                        </div>
-                        <div class="script B">
-                         Grab Attacks:
-                     <p>When the attacker grabs you in any way.</p>
-                     From both the front and rear.
-                        </div>  
-                    </div>
+.green {
+  flex: 1;
+}
 
-                    <div class="black7">
-                        <div class="square">       
-                        <img class="pic" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
-                        </div>
+.square {
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: auto;
+  border: solid 3px gold;
+}
 
-                        <div class="script C">
-                         Lead Instructor:
-                     <p>Sensei Jones is a 2nd Degree Black Belt with over 15 years of experience. He has studied with both the katana and bo staff.</p>
-                        </div>  
-                    </div>
+ .script {
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: auto;
+  border: solid 1px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #f5d871;
+}
 
-                    <div class="black8">
-                        <div class="square">
-                               <img class="pic" src="https://www.shutterstock.com/image-vector/judo-logo-label-badge-design-600nw-2445212143.jpg">
-                        </div>
+.black5 {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  margin-top: 10px;
+}
+.A {
+  height: 110px;
+  width: 200px;
+}
 
-                        <div class="script D">
-                         Lead Instructor:
-                     <p>Sensei Dusti is a 2nd Degree Black Belt with over 15 years of experience. She uses the katana as his main oriental weapon.</p>
-                        </div>  
-                    </div>
-            </div>
+.black6 {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  margin-top: 10px;
+}
+.B {
+  height: 110px;
+  width: 200px;
+}
 
-            </div>
+.black7 {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  margin-top: 10px;
+}
+.C {
+  height: 110px;
+  width: 200px;
+}
 
-  </div>
-  <div id="gallery" style="display:none" class=" yellow"><div class="grad4">
-                  <div class="pictures">
-                  Hall Of Students
-                  </div>
+.black8 {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  margin-top: 10px;
+}
+.D {
+  height: 110px;
+  width: 200px;
+}
 
-                  <div class="row">
-                      <div class="info1">
-                             <img class="pic" src="IMG_0424.jpeg"/>
-                      </div>
-                      <div class="info2">
-                             <img class="pic" src="IMG_0417.jpeg"/>
-                      </div>
-                </div>        
 
-                <div class="row2">        
-                      <div class="info3">
-                             <img class="pic" src="IMG_0423.jpeg"/>
-                      </div>
-                      <div class="info4">
-                             <img class="pic" src="IMG_0422.jpeg"/>
-                      </div>
-                  </div> 
+.grad4 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  background: linear-gradient(to top, darkgray, gray, lightgray);
+}
 
-                  <div class="row3">
-                      <div class="info5">
-                             <img class="pic" src="IMG_0421.jpeg"/>
-                      </div>
-                      <div class="info6">
-                             <img class="pic" src="IMG_0420.jpeg"/>
-                      </div>
-                </div>        
+.pictures {
+  height: 60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  font-size: 35px;
+}
 
-                <div class="row4">        
-                      <div class="info7">
-                             <img class="pic" src="IMG_0419.jpeg"/>
-                      </div>
-                      <div class="info8">
-                             <img class="pic" src="IMG_0418.jpeg"/>
-                      </div>
-                  </div>    
+.row {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 
-              </div>
+.info1 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
+.info2 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-  </div>
+.row2 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.info3 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-<div id="home" class="grad" style="display:block">
-  <div class="karate">
-  KARATE
-  </div>
-           <img class="pic" src="https://www.bokksu.com/cdn/shop/articles/dojo9.jpg?v=1723624983">
-</div>
+.info4 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
 
-<script src="script.js"></script>  
-</body>
-</html>
+
+.row3 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.info5 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.info6 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.row4 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.info7 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.info8 {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  text-align: center;
+}

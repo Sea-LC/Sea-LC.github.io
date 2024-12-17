@@ -108,6 +108,11 @@ body {
   color: red;
 }
 
+img {
+  height: 100%;
+  width: 100%;
+}
+
 .karate {
   position: absolute;
   height: 60px;
@@ -127,8 +132,8 @@ body {
   background: linear-gradient(to top, black, gray, lightgray);
 }
 
-img {
-  height: 100%;
+.stay {
+  height: 800px;
   width: 100%;
 }
 

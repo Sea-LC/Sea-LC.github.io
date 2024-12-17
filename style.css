@@ -10,13 +10,14 @@ body {
 }
 
 .head {
-  height: 50px;
+  position: fixed;
+  height: 80px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   background: gold;
   text-align: center;
-  padding: 5px;
+  box-shadow: 2px 2px 20px 2px #dea407 inset;
   display: flex;
   flex-wrap: wrap;
 }
@@ -24,8 +25,11 @@ body {
 .Fire {
   height: 50px;
   width: 90%;
-  background: gold;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
@@ -108,11 +112,12 @@ body {
   position: absolute;
   height: 60px;
   width: 100%;
+  margin-top: 140px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   color: red;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .grad {
@@ -123,26 +128,29 @@ body {
 }
 
 img {
-  height: 40%;
-  width: 102%;
+  height: 100%;
+  width: 100%;
 }
 
 .grad2 {
   height: 100%;
   width: 100%;
-  border: solid black 1px;
   margin-bottom: 0;
   background: linear-gradient(to top left, darkgray, gray, lightgray);
 }
 
 .Meet {
-  height: 60px;
+  height: 1px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   text-align: center;
   color: red;
-  font-size: 35px;
+  padding-bottom: 80px;
+  padding-top: 140px;
+  text-shadow: 2px 5px 8px black;
+  font-size: 50px;
 }
 
 .red {
@@ -163,6 +171,7 @@ img {
   margin-left: auto;
   border: solid 3px gold;
   border-radius: 50%;
+  box-shadow: 5px 5px 5px gray;
 }
 .pic1 {
   height: 100%;
@@ -174,10 +183,12 @@ img {
   margin-top: 5px;
   margin-left: 25px;
   margin-right: auto;
-  border: solid 1px;
+  border: solid 2px;
+  border-radius: 5px;
   padding: 5px;
   font-size: 15px;
   background-color: #f5d871;
+  
 }
 
 .black1 {
@@ -243,12 +254,15 @@ p {
   margin-right: auto;
   text-align: center;
   color: red;
-  font-size: 35px;
+  padding-top: 140px;
+  padding-bottom: 60px;
+  font-size: 50px;
+  text-shadow: 0 0 15px black;
 }
 
 .box {
   height: 200px;
-  width: 98.1%;
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -260,7 +274,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
+  box-shadow: -2px 2px 8px 10px #5e5e5c;
   text-align: center;
   padding: 10px;
 }
@@ -270,7 +285,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
+  box-shadow: -2px 2px 8px 10px #5e5e5c;
   text-align: center;
   padding: 10px;
 }
@@ -279,7 +295,7 @@ p {
   height: 100%;
   width: 100%;
   margin-bottom: 0;
-  background: linear-gradient(to top, darkgray, gray, lightgray);
+  background: linear-gradient(to top right, darkgray, gray, lightgray);
 }
 
 .dojo {
@@ -289,7 +305,10 @@ p {
   margin-right: auto;
   text-align: center;
   color: red;
-  font-size: 35px;
+  padding-top: 140px;
+  padding-bottom: 80px;
+  text-shadow: -2px 2px 8px black;
+  font-size: 60px;
 }
 
 .row5 {
@@ -305,7 +324,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 .info10 {
@@ -314,7 +333,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -330,7 +349,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -340,7 +359,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -358,7 +377,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -368,7 +387,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -384,7 +403,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -394,14 +413,13 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
 .grad3 {
   height: 100%;
   width: 100%;
-  border: solid black 1px;
   margin-bottom: 0;
   background: linear-gradient(to top left, darkgray, gray, lightgray);
 }
@@ -413,10 +431,14 @@ p {
   margin-right: auto;
   text-align: center;
   color: red;
-  font-size: 35px;
+  padding-top: 140px;
+  padding-bottom: 80px;
+  font-size: 50px;
+  text-shadow: 5px 5px 10px black;
 }
 
 .orange {
+  height: 800px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -430,63 +452,68 @@ p {
 .square {
   height: 100px;
   width: 100px;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-left: auto;
   border: solid 3px gold;
 }
 
  .script {
-  margin-top: 5px;
   margin-left: 25px;
   margin-right: auto;
-  border: solid 1px;
-  padding: 5px;
+  border: dotted 3px;
+  border-radius: 5px;
+  padding: 10px;
   font-size: 15px;
   background-color: #f5d871;
+  box-shadow: -1px 2px 10px 5px #fad348 inset;
 }
 
 .black5 {
   display: flex;
-  height: 130px;
+  height: 160px;
   width: 100%;
   margin-top: 10px;
 }
 .A {
-  height: 110px;
+  height: 120px;
   width: 200px;
+  margin-top: 10px;
 }
 
 .black6 {
-  display: flex;
-  height: 130px;
+  display: flex;  
+  height: 160px;
   width: 100%;
   margin-top: 10px;
 }
 .B {
-  height: 110px;
+  height: 120px;
   width: 200px;
+  margin-top: 10px;
 }
 
 .black7 {
   display: flex;
-  height: 130px;
+  height: 160px;
   width: 100%;
   margin-top: 10px;
 }
 .C {
-  height: 110px;
+  height: 160px;
   width: 200px;
+  margin-top: 10px;
 }
 
 .black8 {
   display: flex;
-  height: 130px;
+  height: 160px;
   width: 100%;
   margin-top: 10px;
 }
 .D {
   height: 110px;
   width: 200px;
+  margin-top: 50px;
 }
 
 
@@ -494,7 +521,7 @@ p {
   height: 100%;
   width: 100%;
   margin-bottom: 0;
-  background: linear-gradient(to top, darkgray, gray, lightgray);
+  background: linear-gradient(to top left, darkgray, gray, lightgray);
 }
 
 .pictures {
@@ -503,8 +530,11 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding-top: 140px;
+  padding-bottom: 80px;
   color: red;
-  font-size: 35px;
+  font-size: 60px;
+text-shadow: 5px 5px 10px black;
 }
 
 .row {
@@ -520,7 +550,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 .info2 {
@@ -529,7 +559,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -545,7 +575,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -555,7 +585,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -573,7 +603,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -583,7 +613,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -599,7 +629,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
 
@@ -609,6 +639,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: solid 1px black;
+  border: solid 5px black;
   text-align: center;
 }
